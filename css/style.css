@@ -1,0 +1,37 @@
+td:hover {
+ background-color: aquamarine;
+ text-decoration-line: underline;
+ color: black;
+}
+
+h2{
+    text-decoration-line: underline ;
+}
+
+.stop-watch {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(140, 53, 228);
+    margin-left: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+
+}
+
+
+
+td { 
+    padding: 20px;
+    scrollbar-shadow-color: black;
+}
+
+table {
+    background-color: rgb(89, 88, 90);
+    margin-left: 50px;
+    text-align: center;
+    color: rgb(255, 175, 2);
+    font-weight: 800;
+    border: 8px;
+    border-color: rgb(0, 0, 0);
+}
+
