@@ -12,7 +12,7 @@ function init(num) {
 }
 
 document.querySelector('#newgame').addEventListener('click',()=> {
-    init()
+    init(4)
 })
 function makeOrder() {
     for (var i = 1; i < gNums.length + 1; i++) {
