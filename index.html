@@ -5,14 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>touch numbers</title>
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <script src="/js/util.js"></script>
-    <script src="/js/main.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body style="background-color: rgb(173, 173, 172);"> 
     <h2 style="text-align:center"> Game : ' Touch Numbers '</h2> 
 
-    <button onclick="init()">New Game!!!</button>
+    <button id="newgame" onclick="init()">New Game!!!</button>
 
     <div class="stop-watch">00:00:000</div>
     <div>Chose your level :
@@ -23,5 +21,7 @@
   <table border="5" >
       <tbody class="board"></tbody>
   </table>
+<script src="/js/util.js"></script>
+<script src="/js/main.js"></script>
 </body>
 </html>

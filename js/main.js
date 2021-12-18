@@ -11,6 +11,9 @@ function init(num) {
     makeOrder()
 }
 
+document.querySelector('#newgame').addEventListener('click',()=> {
+    init()
+})
 function makeOrder() {
     for (var i = 1; i < gNums.length + 1; i++) {
         orderNums.push(i)
