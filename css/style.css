@@ -1,7 +1,11 @@
+body {
+    text-align: center;
+}
+
 td:hover {
- background-color: aquamarine;
- text-decoration-line: underline;
- color: black;
+ background-color: rgb(140, 53, 228);
+
+ color: white;
 }
 
 h2{
@@ -9,16 +13,26 @@ h2{
 }
 
 .stop-watch {
+    padding-top: 10px;
+    color: white;
     width: 100px;
     height: 30px;
     background-color: rgb(140, 53, 228);
     margin-left: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     text-align: center;
 
 }
 
+.boxNext-num {
+    margin:40px
+}
 
+.next-num {
+    margin: 10px;
+    color:rgb(140, 53, 228);
+    font-size: 1.7em;
+}
 
 td { 
     padding: 20px;
@@ -26,9 +40,11 @@ td {
 }
 
 table {
-    background-color: rgb(89, 88, 90);
-    margin-left: 50px;
     text-align: center;
+    background-color: rgb(89, 88, 90);
+    margin-top: 70px;
+    margin-left:auto;
+     margin-right:auto; 
     color: rgb(255, 175, 2);
     font-weight: 800;
     border: 8px;

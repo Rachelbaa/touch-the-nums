@@ -10,13 +10,14 @@
 <body style="background-color: rgb(173, 173, 172);"> 
     <h2 style="text-align:center"> Game : ' Touch Numbers '</h2> 
 
-    <button id="newgame" >New Game!!!</button>
+    <button id="newgame" class="newG">New Game!!!</button>
 
     <div class="stop-watch">00:00:000</div>
+    <div class="boxNext-num"><span class="textNN"> next number is : </span><span class="next-num">1</span></div>
     <div>Chose your level :
-        <button onclick="init(4)">eazy(16)</button>
-        <button onclick="init(25)">hard(25)</button>
-        <button onclick="init(36)">Extreme!(36)</button>    
+        <button onclick="init(4)" class="newG">eazy(16)</button>
+        <button onclick="init(25)" class="newG">hard(25)</button>
+        <button onclick="init(36)" class="newG">Extreme!(36)</button>    
     </div>
   <table border="5" >
       <tbody class="board"></tbody>
